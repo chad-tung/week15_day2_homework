@@ -3,10 +3,11 @@ import React from 'react';
 class Single extends React.Component {
   render() {
     return (
-      <div className="single">
+      <React.Fragment>
+        <img src={this.props.img} alt={this.props.img}></img>
         <React.Fragment>{this.props.position}. </React.Fragment>
         {this.props.title}
-      </div>
+      </React.Fragment>
     )
 
   }

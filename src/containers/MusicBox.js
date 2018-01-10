@@ -1,5 +1,4 @@
 import React from 'react';
-import Single from '../components/Single';
 import MusicList from '../components/MusicList';
 
 class MusicBox extends React.Component {
